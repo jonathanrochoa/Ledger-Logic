@@ -35,3 +35,5 @@ List any prerequisites, libraries, OS version, or tools that are required before
 6. Create a ```.env``` file in the Root of the project and paste the following variable name ```DATABASE_URL=postgres://``` you will need to get the key from one of the project owners.
 7. CD back into your project folder and type the following command ```python manage.py runserver``` then paste the generated URL into your browser.
 
+### Initial Deployment
+The application was deployed inside Heroku, using PostgreSQL resource to store data information.
